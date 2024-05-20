@@ -1,3 +1,4 @@
+const async = document.querySelector(`.numberDisp`)
 async function iterateWithAsyncAwait(array) {
     for (const value of array) {
         console.log(value);
